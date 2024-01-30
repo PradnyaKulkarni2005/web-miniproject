@@ -1,0 +1,128 @@
+body{
+    margin: 6px auto;
+    padding: 8px;
+    
+    align-content: center;
+    background-color: rgb(224, 195, 143);
+    
+}
+#head{
+    
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    height:50px ;
+    width: 1500px;
+    background-color: rgb(7, 2, 15);
+    color: rgb(249, 243, 251);
+    text-align: center;
+
+}
+.description{
+    position: relative;
+    display: inline-block;
+    margin-left: 480px;
+}
+
+.container{
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+    padding: 6px;
+    font-size: 10px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0;
+   
+    
+}
+nav li{
+    background-color: rgb(208, 225, 226);
+
+}
+nav a{
+    text-decoration: none;
+     color: rgb(7, 1, 20); 
+}
+nav ul li{
+    
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(6, 3, 22); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+   
+}
+nav a:hover{
+    font-style: italic;
+    color: white;
+}
+nav li:hover{
+    background-color: rgb(27, 4, 44);
+    
+} 
+
+    
+
+h3{
+    text-align: center;
+    color: rgb(46, 3, 3);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+.list{
+    background-color: rgb(209, 219, 219);
+    color: rgb(40, 2, 48);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid grey;
+    
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+.description{
+    background-image: url("classroom.jpeg");
+    height:250px;
+    width:500px;
+    padding:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid grey;
+    border-radius: 10px;
+    
+}
+#quote{
+    color:white;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+.image{
+    display: block;
+    border: 3px solid grey;
+    border-radius: 8px;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    
+
+}
+
