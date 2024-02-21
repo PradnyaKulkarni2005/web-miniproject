@@ -8,29 +8,29 @@
 </head>
 <body>
     <h1 class="title">Registration Form for Chapterwise Tests</h1><br>
-    <form >
+    <div><form >
         <fieldset>
             <legend>Personal Information</legend>
             <label for="name">Full Name:</label>
-            <input type="text" id="name"><br><br>
+            <input type="text" id="name" required><br><br>
             <label for="date">Date of Birth</label>
-            <input type="date" id="date"><br><br>
+            <input type="date" id="date" required><br><br>
             <label for="mail">Email Address</label>
-            <input type="email" id="mail"><br><br>
+            <input type="email" id="mail" required placeholder="abc@gmail.com"><br><br>
             <label for="num">Contact Number</label>
-            <input type="number" id="num"><br><br>
+            <input type="tel" id="num" required max="10" placeholder="xxxxxxxxxx"><br><br>
         </fieldset>
         <fieldset>
             <legend>Educational Information</legend>
             <label for="class">Select your Class</label><br>
-            <input type="radio" name="std" value="10">10
+            <input type="radio" name="std" value="10" required>10
             <input type="radio" name="std" value="12">12
             <legend>Payment Details</legend>
             <h3>Fee : 3000 rupees</h3>
-            <label for="pay">Click on the Payment button for payment</label>
-            <input type="button" name="pay" value="Payment">
-            <label for="dec">Declaration</label>
-            <input type="checkbox" name="n1" value="a1"><h3>I agree the terms and conditions mentioned above and the Information given is true.</h3><br><br>
+            <label for="pay">Click on the Payment button for payment</label><br>
+            <input type="button" name="pay" value="Payment"><br><br>
+            <label for="dec">Declaration</label><br>
+            <input type="checkbox" name="n1" value="a1" id="dec">I agree the terms and conditions mentioned above and the Information given is true.<br><br>
             <input type="submit" value="Submit">
 
 
@@ -45,6 +45,11 @@
 
         
     </form>
+</div>
     
 </body>
 </html>
+            
+
+
+       
