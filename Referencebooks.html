@@ -20,70 +20,36 @@
             margin: auto;
         }
         h2{
-            font-size: 24px;
+            font-size: 35px;
             font-weight: bold;
             font-family: cursive;
             height:50px ;
             width: 400px;
-            background-color: rgb(241, 233, 192);
-            color:rgb(2, 0, 15);
+            background-color: rgb(227, 212, 226);
+            color:black;
             text-align: center;
             margin: auto;
         }
-        .physics{
-            float: left;
-            height: 330px;
-            background-color: white;
-            border:  solid 4px rgb(19, 17, 17);
-            border-radius: 8px;
-            margin-top: 48px;
-            
-            padding: 4px;
-
-        }
+        
         .division{
             
-       display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 50px;
-    justify-content: center;
-    justify-items: center;
-    
-      margin: 0;
-   
-    
-}
-.physics{
-            float: left;
-            height: 330px;
+           overflow: scroll;
+           display: flex;
+           height: 350px;
             background-color: white;
-            border:  solid 4px rgb(19, 17, 17);
-            border-radius: 8px;
-            margin-top: 48px;
-            
-            padding: 4px;
-
-        }
-
-.chemistry, .maths{
-    height: 330px;
-    background-color: white;
             border:  solid 4px rgb(19, 17, 17);
             border-radius: 8px;
             margin: auto;
             padding: 4px;
-}
-.chemistry{
-    margin-top: 48px;
-} 
-
-        
             
+            justify-content: center;
+            flex-direction: row;
+            position: relative;
+   
     
-            
+}
 
-        
-        h3{
+         h3{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 18px;
             color: rgb(1, 1, 15);
@@ -102,10 +68,9 @@
     <header><br>
     <h1 id="heading">Reference Books for Entrance Exams</h1><br><br></header>
     <main>
-        <h2>MHTCET</h2>
-        <section class="division">
-            
-            <br><br>
+        <h2>MHTCET</h2><br>
+        <section >
+            <div class="division">
             <div class="physics">
                 <h3>Best Books for Physics</h3>
                 <ul>
@@ -134,12 +99,15 @@
                     </ul>
 
                     </div>
+                </div>
 
             
         </section>
-        <h2>JEE</h2>
-        <h2>JEE</h2>
+        <br>
+        <h2>JEE</h2><br>
+        <div class="division">
         <div class="physics">
+            <h3>Best Books for Physics</h3>
             <ul><li>Understanding Physics by D. C Pandey</li><br>
             <li>Concepts of physics (Volumes 1 and 2) by H.C Verma</li><br>
             <li>Fundamentals of Physics by Halliday, Resnick & Walker</li><br>
@@ -149,6 +117,7 @@
             </ul>
         </div>
         <div class="chemistry">
+            <h3>Best Books for Physics</h3>
             <h3>For Organic Chemistry</h3>
             <ul><li>Organic Chemistry by Morrison & Boyd</li><br>
                 <li>Organic Chemistry by O P Tandon</li><br>
@@ -162,40 +131,70 @@
             
         </div>
         <div class="maths">
+            <h3>Best Books for Mathematics</h3>
             <ul><li>Objective Mathematics by RD Sharma</li><br>
             <li>Algebra by Dr. S K Goyal</li><br>
             <li>Differential Calculus by Amit M Agarwal</li><br>
             <li>Complete Mathematics for JEE Main TMH</li><br></ul>
-        </div><br>
+        </div></div>
 
         <section>>
-            
+            <br>
             
         </section>
         <section>
-            <h2>NEET</h2>
+            <h2>NEET</h2><br>
+            <div class="division">
+            
             <div class="physics">
+                <h3>Best Books for Physics</h3>
+                <ul><li>Concepts of Physics by H. C. Verma</li><br>
+                    <li>DC Pandey Physics for NEET</li><br>
+                    <li>Fundamental Physics by Pradeep</li><br>
+                    <li>Problems in General Physics by IE Irodov</li><br>
+                    </ul>
 
             </div>
             <div class="chemistry">
+                <h3>Best Books for Chemistry</h3>
+                <ul><li>Physical Chemistry by OP Tandon</li>
+                <li>ABC of Chemistry for Classes 11 and 12 by Modern</li><br>
+                <li>Concise Inorganic Chemistry by JD Lee</li><br>
+                <li>Practise books by VK Jaiswal (Inorganic), MS Chauhan (Organic) and N Awasthi (Physical)</li><br>
+                </ul>
 
             </div>
             <div class="maths">
+                <h3>Best Books for Biology</h3>
                 <ul><li>Objective Biology by Dinesh</li><br>
-                <li></li></ul>
+                <li>Biology Vol 1 and Vol 2 by Trueman</li><br>
+            <li>Objective Botany by Ansari</li><br>
+            <li>Pradeep Guide on Biology</li><br>
+            <li>GR Bathla publications for Biology</li><br></ul>
             </div>
+        </div>
         </section>
 
         <section>
             
             
-        </section>
-        <section>
-            <h2>NEET</h2>
-            
-        </section>
+        
 
     </main>
     
 </body>
 </html>
+           
+    
+
+            
+    
+            
+
+        
+      
+
+            
+      
+            
+            
