@@ -1,0 +1,70 @@
+body{
+    margin: 6px auto;
+    padding: 8px;
+    
+    align-content: center;
+    background-image: url(https://img.freepik.com/premium-photo/blank-yellow-sticky-note-pencil-navy-blue-table-background_7189-3543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6vHGVvrgIXl-Q5wWD-cUrJTeO9xSf7ephXeGDsz8XQ&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+table{
+    height: 65px;
+    margin: auto;
+    
+}
+h1{
+    height: 38px;
+    font-size: 34px;
+    color: rgb(7, 3, 51);
+    font-weight: bold;
+    font-family:cursive;
+    border: 3px solid grey;
+    border-radius:8px;
+    text-align: center;
+    background-color: rgb(237, 244, 243);
+    padding: 8px;
+
+}
+h2{
+    font-size:30px;
+    color:rgb(238, 226, 226);
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+div{
+    background-color: rgb(159, 191, 230);
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+.trans{
+    position: relative;
+    height: 40px;
+    font-family: cursive;
+    font-size: 26px;
+    animation: title 15s linear infinite;
+    margin: 0;
+}
+@keyframes title { 
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
