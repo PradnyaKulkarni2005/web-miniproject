@@ -1,0 +1,71 @@
+body{
+    margin: 6px auto;
+    padding: 8px;
+    
+    align-content: center;
+    /* background-color: rgb(175, 218, 199); */
+    background-image: url(https://img.freepik.com/premium-photo/blank-yellow-sticky-note-pencil-navy-blue-table-background_7189-3543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+    height:50px ;
+    width: 1500px;
+    /* background-color: rgb(39, 2, 2); */
+    color: rgb(249, 243, 251);
+    text-align: center;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* grid-template-rows: 50px; */
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    width: 40%;
+    float: right;
+    
+    
+    
+   
+    
+}
+nav li{
+    background-color: rgb(153, 212, 221);
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(2, 0, 6);
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li{
+    position: relative;
+    
+    text-transform: capitalize;
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+   
+}
+/* nav > ul a:hover{
+    font-style: italic;
+    color: white;
+  } */
+/* nav a:hover{
+    
+} */
+nav li:hover{
+    background-color: rgb(24, 93, 133);
+    color: white;
+    
+}
