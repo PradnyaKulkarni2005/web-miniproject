@@ -1,0 +1,134 @@
+body{
+    margin: 6px auto;
+    padding: 8px;
+    
+    align-content: center;
+    /* background-color: rgb(224, 195, 143); */
+    background-image: url(https://img.freepik.com/premium-photo/blank-yellow-sticky-note-pencil-navy-blue-table-background_7189-3543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#head{
+    margin-top: 20px;
+    font-size :45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height:50px ;
+    width: 1500px;
+    /* background-color: rgb(7, 2, 15); */
+    color: rgb(249, 243, 251);
+    text-align: center;
+
+}
+.description{
+    position: relative;
+    display: inline-block;
+    margin-left: 480px;
+}
+
+.container{
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+    padding: 6px;
+    font-size: 10px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0;
+   
+    
+}
+nav li{
+    background-color: rgb(184, 191, 215);
+
+}
+nav a{
+    text-decoration: none;
+     color: rgb(7, 1, 20); 
+}
+nav ul li{
+    
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(6, 3, 22); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+   
+}
+nav a:hover{
+    font-style: italic;
+    color: white;
+}
+nav li:hover{
+    background-color: rgb(107, 103, 146);
+    
+} 
+
+    
+
+h3{
+    text-align: center;
+    color: rgb(167, 144, 179);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+.list{
+    background-color: rgb(151, 183, 222);
+    color: rgb(4, 4, 43);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid grey;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+.description{
+    background-image: url("https://images.template.net/112311/free-animation-virtual-classroom-background-tvwow.jpg");
+    height:250px;
+    width:500px;
+    padding:16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid grey;
+    border-radius: 10px;
+    
+}
+#quote{
+    color:white;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+.image{
+    display: block;
+    border: 3px solid grey;
+    border-radius: 8px;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    
+
+}
+
